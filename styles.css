@@ -29,7 +29,7 @@ ul {
 
 li  {
     display: inline-block;
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 a{
@@ -39,3 +39,59 @@ a{
 }
 
 /*Main Info Styles*/
+
+.MainInfo {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding:100px 300px
+
+}
+
+.MainInfoText {
+    width:50%;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    gap:15px
+}
+
+.MainText{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+    margin:0;
+}
+
+.HSecondText{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.MainInfoButton{
+    padding:8px 25px;
+    border-radius:5px;
+    color:#f9faf8;
+    background-color: #3882f6;
+    width:110px;
+}
+
+.MainInfoButton:hover {
+    background-color: #2a5db0;
+}
+
+
+.MainInfoImage{
+    background-color:#bbbbbd9f;
+    width:500px;
+    height:250px;
+    color:#e5e7eb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-shrink: 0;
+}
