@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 *{
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
     box-sizing: border-box;
     font-family: Roboto;
 }
+
 
 
 /*Header styles*/
@@ -14,7 +15,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:10px 300px
+    padding:10px 200px;
 }
 
 .header-logo{
@@ -46,7 +47,7 @@ a{
     align-items: center;
     justify-content: space-between;
     gap: 30px;
-    padding:100px 300px
+    padding:100px 200px;
 
 }
 
@@ -94,4 +95,51 @@ a{
     justify-content:center;
     align-items:center;
     flex-shrink: 0;
+}
+
+
+/*Random Information Section*/
+.RandInfo {
+    padding:20px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.RandInfoTitle{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin:40px 0px;
+    flex-basis: 100%;
+}
+
+.RandContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+}
+
+.RandShapes{
+    width: 150px;
+    height:150px;
+    color:#f9faf8;
+    border-color: #3882f6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius:10px;
+    margin-bottom: 10px;
+}
+
+.info{
+    max-width: 150px;
+    max-height:400px;
+}
+
+.ShapeText{
+    text-align:center;
+    font-size: 20px;
+    color:#4f5252;
 }
