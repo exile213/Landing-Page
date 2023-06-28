@@ -216,3 +216,20 @@ a{
     border:1px solid #f9faf8;
     border-radius: 5px;
 }
+
+
+/*Footer section*/
+
+Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding:10px 200px;
+    background: #1f2937;
+}
+
+.footertext{
+    font-size: 18px;
+    color:#E5E7EB;
+}
